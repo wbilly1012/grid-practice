@@ -1,0 +1,28 @@
+body {
+   display: grid;
+   grid: auto-flow min content / repeat(12, 1fr);
+   grid-gap: 1em;
+   margin: 1em;
+}
+header, footer {
+   grid-column: 1 / 13;
+}
+aside, nav {
+   grid-column: 1 / 5;
+}
+main {
+   grid-column: 5 / 13;
+   grid-row: 2 / 4;
+}
+#pie1, #pie5 {
+   grid-column: 1 / 4;
+}
+#pie2, #pie6 {
+   grid-column: 4 / 7;
+}
+#pie3, #pie7 {
+   grid-column: 7 / 10;
+}
+#pie4, #pie8 {
+   grid-column: 10 / 13;
+}
