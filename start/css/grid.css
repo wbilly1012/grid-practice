@@ -5,7 +5,7 @@ body {
    margin: 1em;
 }
 header, footer {
-   grid-column: 1 / -1;
+   grid-column: 1 / 13;
 }
 aside, nav {
    grid-column: 1 / 5;
